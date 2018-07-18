@@ -1,28 +1,28 @@
-Round10 Floor10 Ceil10
+Round Floor Ceil
 =========
 
 Create mozilla's round10 ceil10 floor10
 
 ## Usage
 
-`var round10_floor10_ceil10 = require('round10-floor10-ceil10');`
+`var round_floor_ceil = require('round-floor-ceil');`
                                                                 
 floor10 - round down to the tenth-number value         
 
-`round10_floor10_ceil10.floor10({given-value},{tenth-position})`       
+`round_floor_ceil.floor10({given-value},{tenth-position})`       
                                                                         
 ```                                                                     
-round10_floor10_ceil10.floor10(1.77, -1);                                                                                   
+round_floor_ceil.floor10(1.77, -1);                                                                                   
 // returns 1.7                                                          
                                                                        
 ```                                                                     
                                                                        
 ceil10 - round up to the tenth-number value         
 
-`round10_floor10_ceil10.ceil10({given-value},{tenth-position})`       
+`round_floor_ceil.ceil10({given-value},{tenth-position})`       
                                                                         
 ```                              
-round10_floor10_ceil10.ceil10(1.77, -1);                                                                                   
+round_floor_ceil.ceil10(1.77, -1);                                                                                   
 // returns 1.8                                                   
                                             
 ```  

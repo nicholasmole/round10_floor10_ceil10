@@ -1,10 +1,10 @@
-var round10_floor10_ceil10 = require('./lib/create-floor10-ceil10');
+var round_floor_ceil = require('./lib/round_floor_ceil');
 
 module.exports = {
 
   ceil10: function(number, tenths_place) {
 
-		round10_floor10_ceil10();
+		round_floor_ceil();
 
 		return Math.ceil10(number, tenths_place);
 		
@@ -12,7 +12,7 @@ module.exports = {
 
 	floor10: function(number, tenths_place) {
 		
-		round10_floor10_ceil10();
+		round_floor_ceil();
 
 		return Math.floor10(number, tenths_place);
 	}
