@@ -1,0 +1,16 @@
+{
+  "name": "round10-floor10-ceil10",
+  "version": "0.1.0",
+  "description": "Create mozilla's round10 ceil10 floor10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Round",
+    "Ceil",
+    "Floor"
+  ],
+  "author": "Nicholas Mole",
+  "license": "MIT"
+}
